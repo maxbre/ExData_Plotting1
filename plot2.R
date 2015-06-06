@@ -5,6 +5,8 @@ setwd(mywd)
 # download and unzip data
 url<-"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 download.file(url, destfile="dataset_local.zip")
+# please eventually consider using the method "curl" (depending on the system in use)
+# download.file(url, destfile="dataset_local.zip", method="curl")
 unzip("dataset_local.zip")
 
 # read data into a df
