@@ -1,5 +1,5 @@
-# set wd, change accordignly!
-mywd<-"."
+# set wd, change accordingly!
+mywd<-"." 
 setwd(mywd)
 
 # download and unzip data

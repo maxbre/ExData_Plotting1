@@ -1,4 +1,4 @@
-# set wd, change accordignly!
+# set wd, change accordingly!
 mywd<-"."
 setwd(mywd)
 
